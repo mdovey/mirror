@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.gaborcselle.persistent.PersistentQueueTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 sec - in com.gaborcselle.persistent.PersistentQueueTest
