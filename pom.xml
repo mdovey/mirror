@@ -246,6 +246,7 @@
 				 <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
 			   </flowInitContext>
 			   <keepBranch>true</keepBranch>
+                           <pushFeatures>true</pushFeatures>
 			</configuration>
         </plugin>
       <plugin>
