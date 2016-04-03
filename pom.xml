@@ -240,10 +240,10 @@
 			  <flowInitContext>
 				 <masterBranchName>master</masterBranchName>
 				 <developBranchName>develop</developBranchName>
-				 <featureBranchPrefix>feature-</featureBranchPrefix>
-				 <releaseBranchPrefix>release-</releaseBranchPrefix>
-				 <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-				 <versionTagPrefix />
+				 <featureBranchPrefix>feature/</featureBranchPrefix>
+				 <releaseBranchPrefix>release/</releaseBranchPrefix>
+				 <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+				 <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
 			   </flowInitContext>
 			   <keepBranch>true</keepBranch>
 			</configuration>
