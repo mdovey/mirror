@@ -18,7 +18,7 @@
 
   <groupId>com.ceridwen.test</groupId>
   <artifactId>ceridwen-mirro</artifactId>
-  <version>1.7</version>
+  <version>1.8</version>
   <packaging>jar</packaging>
 
   <name>ceridwen-util</name>
@@ -240,10 +240,10 @@
 			  <flowInitContext>
 				 <masterBranchName>master</masterBranchName>
 				 <developBranchName>develop</developBranchName>
-				 <featureBranchPrefix>feature-</featureBranchPrefix>
-				 <releaseBranchPrefix>release-</releaseBranchPrefix>
-				 <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-				 <versionTagPrefix />
+				 <featureBranchPrefix>feature/</featureBranchPrefix>
+				 <releaseBranchPrefix>release/</releaseBranchPrefix>
+				 <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+				 <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
 			   </flowInitContext>
 			   <keepBranch>true</keepBranch>
 			</configuration>
