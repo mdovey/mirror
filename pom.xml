@@ -241,9 +241,9 @@
 				 <masterBranchName>master</masterBranchName>
 				 <developBranchName>develop</developBranchName>
 				 <featureBranchPrefix>feature/</featureBranchPrefix>
-				 <releaseBranchPrefix>release/</releaseBranchPrefix>
+				 <releaseBranchPrefix>released/${project.artifactId}-</releaseBranchPrefix>
 				 <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
-				 <versionTagPrefix>version/${project.artifactId}-</versionTagPrefix>
+				 <versionTagPrefix>released/${project.artifactId}-</versionTagPrefix>
 			   </flowInitContext>
 			   <keepBranch>true</keepBranch>
                            <pushFeatures>true</pushFeatures>
